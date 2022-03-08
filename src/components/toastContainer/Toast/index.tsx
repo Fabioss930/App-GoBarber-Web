@@ -11,6 +11,8 @@ import { Container } from "./style";
 interface ToastProps {
   message: ToastMessage;
   style: object;
+  id: string;
+  title?: string;
 }
 
 const icons = {
