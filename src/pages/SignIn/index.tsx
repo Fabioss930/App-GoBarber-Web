@@ -12,6 +12,7 @@ import { useToast } from "../../hooks/toast";
 import getValidationError from "../../utils/getValidationErrors";
 import { Background, Container, Content, AnimationContainer } from "./styles";
 
+
 interface SignInData {
   email: string;
   password: string;
